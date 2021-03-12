@@ -41,5 +41,18 @@
         android:hint="전화번호 입력"
         android:inputType="phone"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="닉네임 입력"
+        android:singleLine="true"/>
+
+
+
 
 </LinearLayout>
