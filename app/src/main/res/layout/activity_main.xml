@@ -64,6 +64,12 @@
         android:singleLine="true"
         android:imeOptions="actionSearch"/>
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용약관에 동의 합니다."
+        android:checked="true"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
