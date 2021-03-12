@@ -52,7 +52,16 @@
         android:hint="닉네임 입력"
         android:singleLine="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추천인" />
 
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="추천인 닉네임 입력"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"/>
 
 </LinearLayout>
