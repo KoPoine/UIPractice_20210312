@@ -9,9 +9,10 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="100dp"
+        android:layout_width="350dp"
         android:layout_height="100dp"
-        android:src="@drawable/jason_logo01" />
+        android:src="@drawable/jason_logo01"
+        android:scaleType="center"/>
 
     <TextView
         android:layout_width="wrap_content"
