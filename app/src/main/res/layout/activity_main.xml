@@ -30,6 +30,7 @@
         android:text="아이디" />
 
     <EditText
+        android:id="@+id/inputEmailEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일 양식으로 입력"
@@ -42,6 +43,7 @@
         android:text="비밀번호" />
 
     <EditText
+        android:id="@+id/inputPwEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="8자리 양식으로 입력"
@@ -54,6 +56,8 @@
         android:text="연락처(휴대전화 번호)" />
 
     <EditText
+
+        android:id="@+id/inputNumEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"
@@ -136,6 +140,7 @@
             android:text="이전으로" />
 
         <Button
+            android:id="@+id/goBtn"
             android:layout_width="0dp"
             android:layout_weight="3"
             android:layout_height="wrap_content"
